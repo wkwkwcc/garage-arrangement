@@ -1,0 +1,38 @@
+1 文件名
+全小写，可使用下划线，如：main.py、main_info.py
+2 模块与包
+尽量使用小写命名，少用下划线（除非下划线可以改善可读性）
+3 类
+使用大驼峰命名风格，私有类以下划线开头
+Demo
+class Room:
+    pass
+
+class MyRoom(Room):
+    pass
+
+class _PrivateRoom(Room):
+    pass
+4 函数与方法
+函数名使用小写，多个单词间用下划线分隔，私有函数前需要加下划线_
+Demo
+def crawl():
+    pass
+
+def crawl_max_page():
+    pass
+
+def _private_func():
+    pass
+5 变量
+变量名使用全小写，多个单词间用下划线分隔
+Demo
+word = 'Hello'
+max_page = 100
+6 常量
+常量全大写，多个单词间用下划线分隔
+Demo
+HOST = '127.0.0.1'
+PORT = 3306
+MAX_LENGTH = 20
+
